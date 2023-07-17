@@ -3,10 +3,11 @@
 - Users of this website wil be able to find all the information on main page
   
   ## Design
-
-  - Background ![Example Image](    )
+      
+           
   - Flow diagram 
-  - Wireframe
+  - Wireframe  ![Example Image]( documentation/Desktop.jpg )
+               ![Example Image]( documentation/Phone.jpg )
   - Color schame  
   
                  
@@ -26,3 +27,4 @@
 
   - Content
   - Media 
+  
