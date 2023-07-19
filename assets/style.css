@@ -65,6 +65,7 @@ text-align: center;
     text-align: center;
     padding: 15px 20px;
     position: relative;
+    font-family: bold , sans-serif;
 }
 .icon {
     background-color: red;
@@ -81,9 +82,34 @@ text-align: center;
     transform: translate(-10%, -55%);
 
 }
-#sistem-icon {
+#system-icon {
     position: absolute;
     top: 30%;
     right: -10%;
     transform: translate(30%, -55%);
+}
+#restart-div {
+    width: 70%;
+    margin: auto;
+    margin-top: 3%;
+    text-align: center;
+}
+#restart {
+    
+    background: gray;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2%;
+    font-size: 16px;
+    font-family: bold , sans-serif;
+}
+#restart:hover {
+    border: 1px solid white;
+    background-color: green;
+}
+.invisible {
+    display: none;
+}
+.visible {
+    display:block;
 }
