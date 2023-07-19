@@ -43,7 +43,6 @@ function choose(value){
         valuation("scissor");
         
     }
-load(choose);
 }
 
 
@@ -79,16 +78,16 @@ function lose(user, system) {
 
 }
 function scoreCheck() {
-    if (user_score >= 10){
-        result_div.innerHTML = "U WIN!!   to restart click to 'Restart' button!"
+    if (user_score >= 3){
+        result_div.innerHTML = "U WIN!!   to restart click to 'Restart' button!";
         rock_div.removeEventListener("click", () => choose("rock"));
         paper_div.removeEventListener("click", () => choose("paper"));
         scissor_div.removeEventListener("click", () => choose("scissor"));
         restart_div.classList.remove("invisible");
         restart_div.classList.add("visible");
         restart_button.addEventListener("click", () => location.reload());
-    }else if (system_score >=10){
-        result_div.innerHTML = "SYSTEM WIN!!   to restart click to 'Restart' button!"
+    }else if (system_score >=3){
+        result_div.innerHTML = "SYSTEM WIN!!   to restart click to 'Restart' button!";
         rock_div.removeEventListener("click", () => choose("rock"));
         paper_div.removeEventListener("click", () => choose("paper"));
         scissor_div.removeEventListener("click", () => choose("scissor"));
@@ -115,6 +114,4 @@ function load(){
     scissor_div.addEventListener("click", () => choose("scissor"));
 
 }
-load(rock_div);
-load(paper_div);
-load(scissor_div);
+load();
