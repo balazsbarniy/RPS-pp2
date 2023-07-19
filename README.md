@@ -7,7 +7,7 @@
            
   
   - Wireframe  ![Example Image]( documentation/Desktop.jpg )
-               ![Example Image]( )
+               ![Example Image](documentation/Phone.jpg)
 
 
   - Color schame "all the colors is the basic colors"
@@ -26,8 +26,8 @@
   - Clear description on bottom of the page
   ## Testing
 
-  - Validator testing HTML  [W3C Validator]()
-  - Validator testing CSS   [W3C validator]()
+  - Validator testing HTML (all criteria pass) [W3C Validator](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fraw.githubusercontent.com%2Fbalazsbarniy%2FRPS-pp2%2FRPS-branch%2Findex.html#file)
+  - Validator testing CSS (all criteria pass)  [W3C validator](https://validator.w3.org/nu/#file)
   
    
 
